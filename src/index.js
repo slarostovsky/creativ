@@ -1,3 +1,6 @@
+"use strict"
+
 import "./css/bootstrap-grid.min.css";
 import "./css/bootstrap-reboot.min.css";
-import "./scss/main.scss"
+import "./css/fonts.css";
+import "./scss/main.scss";
