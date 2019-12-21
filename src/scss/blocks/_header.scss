@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(20deg, $second-color, #C5DDE8);
+    &__logo {
+        width: 40px;
+        height: 40px;
+        background-color: red;
+    }
+
+    &__wrapper{
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__wrap {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+
+    &__nav{
+        width: 351px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 12px;
+        color: #fff;
+        transition: .3s all;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+}
